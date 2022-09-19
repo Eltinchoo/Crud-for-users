@@ -39,15 +39,18 @@ const UsersList = ({ users, getUsers, selectUser }) => {
                 </span>
               </div>
               <div className="btn-user">
-                <button className="btn-card-user"  onClick={() => deleteUser(user.id)}>
+                <button
+                  className="btn-card-user"
+                  onClick={() => deleteUser(user.id)}
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="icon icon-tabler icon-tabler-trash"
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
-                    strokeWidth="1"
-                    stroke="#474241"
+                    stroke-width="1"
+                    stroke="#ffffff"
                     fill="none"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -61,7 +64,10 @@ const UsersList = ({ users, getUsers, selectUser }) => {
                   </svg>
                 </button>
 
-                <button className="btn-card-user" onClick={() => selectUser(user)}>
+                <button
+                  className="btn-card-user"
+                  onClick={() => selectUser(user)}
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="icon icon-tabler icon-tabler-edit"
@@ -69,7 +75,7 @@ const UsersList = ({ users, getUsers, selectUser }) => {
                     height="24"
                     viewBox="0 0 24 24"
                     stroke-width="1"
-                    stroke="#474241"
+                    stroke="#ffffff"
                     fill="none"
                     strokeLinecap="round"
                     strokeLinejoin="round"

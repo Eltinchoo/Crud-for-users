@@ -13,7 +13,7 @@
   flex-direction: column;
 }
 h1{
-  color:white;
+  color:#485143;
   font-size: 50px;
 }
 form {
@@ -63,8 +63,8 @@ form {
   width: 300px;
 }
 button {
-  background-color: #cda67a;
-  border: 2px solid #cda67a;
+  background-color: #535e4b;
+  border: 2px solid #535e4b;
   border-radius: 5px;
   color: white;
   padding: 8px;
@@ -120,7 +120,8 @@ h5{
 }
 .btn-card-user {
   padding: 5px;
-  
+  background-color: #535e4b;
+  border: 2px solid #535e4b;
 }
 
 
