@@ -12,17 +12,18 @@
   align-items: center;
   flex-direction: column;
 }
-h1{
-  color:#485143;
+h1 {
+  color: #485143;
   font-size: 50px;
 }
 form {
   box-sizing: border-box;
   background-color: #d0ccb9;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   padding: 20px;
-  width: 400px;
   margin: 30px;
   text-align: left;
   border-radius: 10px;
@@ -70,9 +71,9 @@ button {
   padding: 8px;
   margin-top: 10px;
 }
-button:hover{
-  background-color:#a7a88a;
-  border:2px solid #a7a88a;
+button:hover {
+  background-color: #a7a88a;
+  border: 2px solid #a7a88a;
 }
 .btn {
   display: flex;
@@ -87,28 +88,32 @@ button:hover{
   align-items: center;
   width: 100%;
 }
-li{
+li {
   list-style: none;
 }
 .card-user {
   box-sizing: border-box;
+  width: 800px;
   background-color: #d0ccb9;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin:10px;
+  margin: 10px;
   border-radius: 10px;
-  padding: 30px;
+  padding: 20px;
   text-align: left;
-  gap:400px
 }
 
-.user-info{
+.user-info {
   width: 70%;
+  padding-left: 20px
 }
-h5{
-  font-size: 16px;
+h5 {
+  font-size: 20px;
   margin: 1px;
+}
+span{
+  font-size: 17px;
 }
 .btn-user {
   display: flex;
@@ -117,6 +122,7 @@ h5{
   gap: 20px;
   width: 30%;
   height: 60px;
+  padding-left: 80px;
 }
 .btn-card-user {
   padding: 5px;
@@ -124,4 +130,130 @@ h5{
   border: 2px solid #535e4b;
 }
 
-
+@media (max-width: 480px)  and (min-width: 320px )  {
+  h1 {
+    font-size: 25px;
+  }
+  form {
+    padding: 10px;
+    width: 305px;
+    margin: 10px;
+    margin-right: 10px;
+  }
+  .input-container {
+    gap: 2px;
+    margin: 5px;
+  }
+  .input-camp{
+    gap:3px;
+  }
+  #first_name {
+    width: 115px;
+  }
+  #last_name {
+    width: 115px;
+  }
+  #email {
+    width: 245px;
+  }
+  #password {
+    width: 245px;
+  }
+  #birthday {
+    width: 245px;
+  }
+  .card-user {
+    margin-left: -30px;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: left;
+    width: 300px;
+    height: 110px;
+  }
+  .user-info {
+    width: 70%;
+    padding-left: 2px
+  }
+  h5{
+    font-size: 13px;
+  }
+  span{
+    font-size: 12px;
+  }
+  .btn-user {
+    gap: 10px;
+    width: 15%;
+    padding-left: 80px;
+  }
+.btn-user{
+  margin-right: 4px;
+}
+}
+@media (min-width:480px) and (max-width:768px) {
+  h1 {
+    font-size: 42px;
+  }
+  form {
+    padding: 20px;
+    width: 430px;
+    margin: 10px;
+    margin-right: 10px;
+  }
+  .input-container {
+    gap: 2px;
+    margin: 7px;
+  }
+  .input-camp{
+    gap:3px;
+  }
+  #first_name {
+    width: 150px;
+  }
+  #last_name {
+    width: 150px;
+  }
+  #email {
+    width: 310px;
+  }
+  #password {
+    width: 310px;
+  }
+  #birthday {
+    width: 310px;
+  }
+  .card-user {
+    margin-left: -30px;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: left;
+    width: 470px;
+    height: 110px;
+  }
+  .user-info {
+    width: 70%;
+    padding-left: 4px
+  }
+  h5{
+    font-size: 15px;
+  }
+  span{
+    font-size: 15px;
+  }
+  .btn-user {
+    gap: 10px;
+    width: 15%;
+    padding-left: 80px;
+  }
+.btn-user{
+  margin-right: 4px;
+}
+}
+@media (min-width:769px) and (max-width:1024px){
+  h1{
+    font-size: 50px;
+  }
+  .card-user {
+    width: 700px;
+    margin: 10px;   
+  }
+}
