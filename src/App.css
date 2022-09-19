@@ -1,0 +1,126 @@
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #a7a88a;
+}
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1{
+  color:white;
+  font-size: 50px;
+}
+form {
+  box-sizing: border-box;
+  background-color: #d0ccb9;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 400px;
+  margin: 30px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin: 10px;
+}
+.input-camp {
+  display: flex;
+  gap: 5px;
+}
+
+#first_name {
+  border-radius: 5px;
+  width: 141px;
+}
+#last_name {
+  border-radius: 5px;
+  width: 141px;
+}
+#email {
+  border-radius: 5px;
+  width: 300px;
+}
+#password {
+  border-radius: 5px;
+  width: 300px;
+}
+#birthday {
+  border-radius: 5px;
+  width: 300px;
+}
+button {
+  background-color: #cda67a;
+  border: 2px solid #cda67a;
+  border-radius: 5px;
+  color: white;
+  padding: 8px;
+  margin-top: 10px;
+}
+button:hover{
+  background-color:#a7a88a;
+  border:2px solid #a7a88a;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.list-container {
+  background-color: #a7a88a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+li{
+  list-style: none;
+}
+.card-user {
+  box-sizing: border-box;
+  background-color: #d0ccb9;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin:10px;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: left;
+  gap:400px
+}
+
+.user-info{
+  width: 70%;
+}
+h5{
+  font-size: 16px;
+  margin: 1px;
+}
+.btn-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 30%;
+  height: 60px;
+}
+.btn-card-user {
+  padding: 5px;
+  
+}
+
+
