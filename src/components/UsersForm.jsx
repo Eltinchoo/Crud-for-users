@@ -82,7 +82,7 @@ const UsersForm = ({ getUsers, userSelected, deselectUser }) => {
       <div className="input-container email">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="icon icon-tabler icon-tabler-mail"
+          className="icon icon-tabler icon-tabler-mail"
           width="36"
           height="36"
           viewBox="0 0 24 24"
